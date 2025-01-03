@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leon | Template One</title>
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="dist/all.min.css" />
+    <link href="./dist/output.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-work-sans">
+    <!-- Start Header -->
+    <div class="header py-4 h-16">
+      <div class="container flex items-center justify-between">
+        <img class="logo w-20" src="images/logo.png" alt="" />
+
+        <div class="links relative cursor-pointer transition-all duration-500">
+          <span class="icon w-9 flex flex-wrap justify-end">
+            <span class="h-[2px] mb-2 bg-gray-800 w-full"></span>
+            <span
+              class="h-[2px] mb-2 bg-gray-800 w-[60%] transition-all duration-300"
+            ></span>
+            <span class="h-[2px] mb-2 bg-gray-800 w-full"></span>
+          </span>
+
+          <ul
+            class="absolute right-0 top-[calc(100%+10px)] bg-gray-100 min-w-52 hidden z-10"
+          >
+            <li>
+              <a class="nav-link border-b" href="#Services">Services</a>
+            </li>
+            <li>
+              <a class="nav-link border-b" href="#Portfolio">Portfolio</a>
+            </li>
+            <li><a class="nav-link border-b" href="#About">About</a></li>
+            <li><a class="nav-link" href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Header -->
+    <!-- Start landing -->
+    <div
+      class="bg-cover h-[calc(100vh-64px)] relative bg-[url('/images/landing.jpg')]"
+    >
+      <div
+        class="text-intro absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center w-[320px] max-w-full"
+      >
+        <h1 class="text-[50px] font-bold mb-5 text-primary">Hello There</h1>
+        <p class="text-xl leading-[1.8]">
+          We are Leon - Super Creative & Minimal Agency Web Template
+        </p>
+      </div>
+    </div>
+    <!-- End landing -->
+    <!-- Start features -->
+    <div class="features bg-backsection py-16">
+      <div class="container grid md:grid-cols-2 lg:grid-cols-3 gap-20">
+        <div class="feat text-center p-5">
+          <i class="fas fa-magic fa-3x text-primary"></i>
+          <h3 class="mt-6 mb-4 font-extrabold">Tell Us Your Idea</h3>
+          <p class="leading-[1.8] text-[17px] text-gray-500">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut lab
+          </p>
+        </div>
+
+        <div class="feat text-center p-5">
+          <i class="far fa-gem fa-3x text-primary"></i>
+          <h3 class="mt-6 mb-4 font-extrabold">We Will Do All The Work</h3>
+          <p class="leading-[1.8] text-[17px] text-gray-500">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut lab
+          </p>
+        </div>
+
+        <div class="feat text-center p-5">
+          <i class="fas fa-globe-asia fa-3x text-primary"></i>
+          <h3 class="mt-6 mb-4 font-extrabold">Your Product is Worldwide</h3>
+          <p class="leading-[1.8] text-[17px] text-gray-500">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut lab
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End features -->
+    <!-- Start Services -->
+    <div class="services py-16" id="Services">
+      <div class="container">
+        <h2 class="special-heading">Services</h2>
+        <p>Don't be busy, be productive</p>
+
+        <div
+          class="content-services grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-24"
+        >
+          <div class="col grid grid-rows-2 gap-8">
+            <!-- Start service1 -->
+            <div
+              class="srv flex flex-col text-center sm:flex-row sm:text-start"
+            >
+              <i
+                class="fas fa-palette fa-2x text-primary mb-4 sm:mb-0 sm:basis-20"
+              ></i>
+
+              <div class="info w-full">
+                <h3 class="mb-5 font-bold">Graphic Design</h3>
+
+                <p class="font-normal leading-[1.6] text-gray-600">
+                  Graphic design is the process of visual communication and
+                  problem-solving using one or more of typography, photography
+                  and illustration.
+                </p>
+              </div>
+            </div>
+            <!-- end service1 -->
+            <!-- Start service2 -->
+            <div
+              class="srv flex flex-col text-center sm:flex-row sm:text-start"
+            >
+              <i
+                class="fab fa-sketch fa-2x text-primary mb-4 sm:mb-0 sm:basis-20"
+              ></i>
+
+              <div class="info w-full">
+                <h3 class="mb-5 font-bold">UI & UX</h3>
+
+                <p class="font-normal leading-[1.6] text-gray-600">
+                  Process of enhancing user satisfaction with a product by
+                  improving the usability, accessibility, and pleasure provided
+                  in the interaction.
+                </p>
+              </div>
+            </div>
+            <!-- end service2 -->
+          </div>
+
+          <div class="col grid grid-rows-2 gap-8">
+            <!-- Start service1 -->
+            <div
+              class="srv flex flex-col text-center sm:flex-row sm:text-start"
+            >
+              <i
+                class="fas fa-vector-square fa-2x text-primary mb-4 sm:mb-0 sm:basis-20"
+              ></i>
+
+              <div class="info w-full">
+                <h3 class="mb-5 font-bold">Web Design</h3>
+
+                <p class="font-normal leading-[1.6] text-gray-600">
+                  Web design encompasses many different skills and disciplines
+                  in the production and maintenance of website.
+                </p>
+              </div>
+            </div>
+            <!-- end service1 -->
+            <!-- Start service2 -->
+            <div
+              class="srv flex flex-col text-center sm:flex-row sm:text-start"
+            >
+              <i
+                class="fas fa-pencil-ruler fa-2x text-primary mb-4 sm:mb-0 sm:basis-20"
+              ></i>
+
+              <div class="info w-full">
+                <h3 class="mb-5 font-bold">Web Development</h3>
+
+                <p class="font-normal leading-[1.6] text-gray-600">
+                  Web development is a broad term for the work involved in
+                  developing a web site for the Internet or an intranet.
+                </p>
+              </div>
+            </div>
+            <!-- end service2 -->
+          </div>
+
+          <div class="col">
+            <div class="Image relative hidden lg:inline-block">
+              <img src="images/services.jpg" class="w-[260px]" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end Services -->
+    <!--start Portfolio -->
+    <div class="Portfolio bg-backsection py-16" id="Portfolio">
+      <div class="container">
+        <h2 class="special-heading">Portfolio</h2>
+        <p>If you do it right, it will last forever.</p>
+        <div
+          class="content-Portfolio grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-20"
+        >
+          <div class="card bg-white">
+            <img src="images/portfolio-1.jpg" class="max-w-full" alt="" />
+
+            <div class="info p-5">
+              <h3 class="m-0">Project Here</h3>
+
+              <p class="mt-2 leading-[1.7] text-gray-400">
+                My creative ability is very difficult to measure because it can
+                manifest in so many surprising and.
+              </p>
+            </div>
+          </div>
+
+          <div class="card bg-white">
+            <img src="images/portfolio-2.jpg" class="max-w-full" alt="" />
+
+            <div class="info p-5">
+              <h3 class="m-0">Project Here</h3>
+
+              <p class="mt-2 leading-[1.7] text-gray-400">
+                My creative ability is very difficult to measure because it can
+                manifest in so many surprising and.
+              </p>
+            </div>
+          </div>
+
+          <div class="card bg-white">
+            <img src="images/portfolio-3.jpg" class="max-w-full" alt="" />
+
+            <div class="info p-5">
+              <h3 class="m-0">Project Here</h3>
+
+              <p class="mt-2 leading-[1.7] text-gray-400">
+                My creative ability is very difficult to measure because it can
+                manifest in so many surprising and.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End Portfolio -->
+    <!--start About -->
+    <div class="About py-16" id="About">
+      <div class="container">
+        <h2 class="special-heading">About</h2>
+        <p>Less is more work</p>
+        <div
+          class="content-About mt-24 flex flex-col text-center lg:flex-row lg:text-start flex-wrap justify-between"
+        >
+          <div class="image relative w-[250px] h-[375px] mx-auto mb-12 lg:m-0">
+            <img src="images/about.jpg" class="max-w-full" alt="" />
+          </div>
+
+          <div class="text basis-1/2">
+            <p class="font-bold leading-[2]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              nemo neque voluptate tempora velit cum non, fuga vitae architecto
+              delectus sed maxime rerum impedit aliquam obcaecati, aut excepturi
+              iusto laudantium!
+            </p>
+
+            <hr class="inline-block w-1/2 border-primary mt-10 mb-7" />
+
+            <p class="text-gray-400 leading-[2]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+              sapiente. Velit iure exercitationem dolores nesciunt dolore. Eum
+              officiis dolorum hic voluptate quaerat minima, similique inventore
+              esse, alias, sed quo officia?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End About -->
+    <!--start Contact -->
+    <div class="Contact bg-backsection py-16" id="Contact">
+      <div class="container">
+        <h2 class="special-heading">Contact</h2>
+        <p>We are born to create</p>
+        <div class="Contact-text py-16 text-center">
+          <p
+            class="label text-2xl sm:text-4xl text-secondary font-extrabold mb-5 tracking-[-2px]"
+          >
+            Feel free to drop us a line at:
+          </p>
+
+          <a
+            class="link text-primary text-2xl sm:text-4xl font-extrabold"
+            href="mailto:leonagency@mail.com-supject=Contact"
+          >
+            leonagency@mail.com
+          </a>
+
+          <div
+            class="social flex items-center justify-center gap-3 mt-5 text-sm sm:text-[17px]"
+          >
+            Find Us On Social Networks
+            <div class="flex items-center gap-3 text-secondary">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-youtube"></i>
+              <i class="fab fa-twitter"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End Contact -->
+    <!--start footer -->
+    <div class="footer bg-secondary text-white text-center py-4 text-[17px]">
+      <p>
+        © 2025 <span class="font-bold text-primary"> leon with Elasy </span> All
+        Right Reserved
+      </p>
+    </div>
+    <!--End footer -->
+  </body>
+</html>
